@@ -1,5 +1,5 @@
 ---
-title: "Historical Silences and the Struggle to Remember"
+title: "Voyant Tools"
 date: 2026-03-10
 ---
 # Voyant Tools
