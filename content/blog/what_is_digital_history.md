@@ -1,0 +1,17 @@
+---
+title: "What is Digital History"
+date: 2024-11-07
+---
+
+What is digital history? This question is one that I hear constantly. I have recently begun to ask the questioner what it is they might think before I attempt to answer myself. A few of the answers: History with a computer? History that uses spreadsheets? And, my all-time personal favorite, a worldwide conspiracy for "them" to control us all by placing all history on servers controlled by the elite.
+
+But all kidding aside, digital history is an approach to doing history by imploring digital tools. It involves traditional and digital research methods to explore historical topics, trends, and relationships that cannot be discovered without the use of digital tools. Digital history is a broad and diverse field that rewards curious historians with the ability to see history in new ways.
+
+This post will look closely at three different examples of digital scholarship. I will be examining what identifiers make these research projects uniquely digital. What data sets are used? What digital tools and methods have been wielded upon those datasets? And who is behind these projects.
+
+The first example of digital scholarship that I looked at was the website [Gilded Age Plains City](http://gildedage.unl.edu), which tells the story of urbanization in the Midwest through the lens of a famous murder trial in the 1890s. The project grew from a 2001 article by Timothy R. Mahoney entitled history profess *The Great Sheedy Murder Case and the Booster Ethos of the Gilded Age in Lincoln, Nebraska.* The project was headed by Mahoney, who worked with students at the Center for Digital Research in the Humanities at the University of Nebraska. This project used the exploration of spatial narratives to provide a deeper understanding of the world in which this famous trial took place. The spatial narratives are combined with an interactive map of Lincoln, Nebraska. Viewers are able to hover over buildings and discover who their inhabitants are, their relevance to the case, and the scope of what the city is like at this moment in time. The creators of this project believe that by imploring the use of spatial narratives, they are able to provide a much fuller experience of their historical topic than traditional analog methods. The website developers also placed their digitized sources in an online archive, which is easy to navigate for the user.
+
+
+
+
+
