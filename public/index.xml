@@ -6,8 +6,35 @@
     <description>Recent content in Dora Helen Impson on 8500 Hugo Demo</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CV</title>
+      <link>http://localhost:1313/cv/</link>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cv/</guid>
+      <description>&lt;h1 id=&#34;dora-helen-impson&#34;&gt;Dora Helen Impson&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;mailto:dorai@clemson.edu&#34;&gt;dorai@clemson.edu&lt;/a&gt;| doraimpson.com&lt;/p&gt;
+&lt;h1 id=&#34;objective&#34;&gt;Objective&lt;/h1&gt;
+&lt;p&gt;My primary objective as a Ph.D. student at Clemson is to study the intersection of racial relations, government policies of dispossession, and civil rights in the southeastern United States from Reconstruction to the modern day through the application of digital methods.&lt;/p&gt;
+&lt;h1 id=&#34;education&#34;&gt;Education&lt;/h1&gt;
+&lt;h2 id=&#34;doctor-of-philosophyaugust-2025-to-currentclemson-university&#34;&gt;Doctor of Philosophy | August 2025 to Current | Clemson University&lt;/h2&gt;
+&lt;p&gt;·       Ph.D. student in Digital History&lt;/p&gt;
+&lt;p&gt;·       GPA: 4.0/4.0&lt;/p&gt;
+&lt;p&gt;·       Research Interests: Legal History, Black History, Southern&lt;br&gt;
+History, Spatial History, Digital History
+ &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>http://localhost:1313/research/</link>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/</guid>
+      <description>&lt;p&gt;Current writing and research projects:&lt;/p&gt;
+&lt;p&gt;Co-authoring upcoming book with Dr. Abel Bartley on the history of Springfield Baptist Church in Greenville, South Carolina&lt;/p&gt;
+&lt;p&gt;Co-authoring book chapter about the significance of Springfield Baptist Church in &lt;em&gt;The New Greenbook of South Carolina&lt;/em&gt; with Dr. Andrew Baker.&lt;/p&gt;
+&lt;p&gt;Ongoing work on notable Black citizens in the history of Greenville, South Carolina with emphasis on the years of 1877 to 1941. This work includes creating a new database, conducting a network analysis of findings, and using GIS to model where significant citizens lived and worked.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Historical Silences and the Struggle to Remember</title>
       <link>http://localhost:1313/blog/historical_memory/</link>
@@ -47,20 +74,6 @@
       <description>&lt;h1 id=&#34;dora-helen-impson&#34;&gt;Dora Helen Impson&lt;/h1&gt;
 &lt;p&gt;&amp;ldquo;Posterity! You will never know how much it cost the present generation to preserve your freedom. I hope you will make good use of it.&amp;rdquo; These words from John Adams articulate why I have chosen to become a historian.&lt;/p&gt;
 &lt;p&gt;My love of history stems from my grandparents, who were part of the generation that endured World War II. They were my playmates and first history teachers, and I owe them an outstanding debt. My thirst for historical knowledge is rooted in the lessons I learned at my grandparents&amp;rsquo; side. The importance of sharing this knowledge with future generations was impressed on me by those who truly understood the price that has been paid for freedom.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>CV</title>
-      <link>http://localhost:1313/cv/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cv/</guid>
-      <description>&lt;p&gt;Add your CV content here.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Research</title>
-      <link>http://localhost:1313/research/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/research/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>
