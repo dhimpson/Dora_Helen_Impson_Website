@@ -35,10 +35,18 @@ languages:
         - name: Home
           url: /
           weight: 5
+        - name: About
+          url: about
+          weight: 6
         - name: Blog
           url: blog
-          weight: 6
-      
+          weight: 7
+        - name: Research
+          url: research
+          weight: 8
+        - name: CV
+          url: CV
+          weight: 9
 
 outputFormats:
   llms:
