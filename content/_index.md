@@ -11,8 +11,13 @@ Welcome to my website. I am a scholar and researcher focused on exploring the in
 ## Research Interests
 
 - **Digital History** — Using digital tools and methods to understand historical narratives
-- **Legal History** — Examining legal systems and their historical contexts
+
+- **Legal History** — Examining legal systems 
+and their historical contexts
+
+
 - **Spatial History** — Analyzing how geography shapes historical events
+
 - **Black History** — Centering Black experiences and contributions in historical research
 
 ---

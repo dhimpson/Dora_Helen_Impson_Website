@@ -1,7 +1,9 @@
 baseURL = "https://example.org/"
 languageCode = "en-us"
-title = "8500 Hugo Demo"
+title = ""
 theme = "PaperMod"
+
+
 
 [[menu.main]]
 name = "Home"
