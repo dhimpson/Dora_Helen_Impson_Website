@@ -45,7 +45,7 @@ languages:
           url: research
           weight: 8
         - name: CV
-          url: CV
+          url: cv
           weight: 9
 
 outputFormats:
