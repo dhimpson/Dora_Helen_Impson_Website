@@ -1,9 +1,15 @@
 ---
-title: "Voyant Tools"
+title: "Text Analysis with Voyant Tools"
 date: 2026-03-10
 ---
-# Voyant Tools
+# Text Analysis with Voyant Tools
 
-<p>I love words. Almost more than I do history. Should a historian admit that? This week our class readings were centered on the topic of digital visualizations. A digital visualization is an important tool in a humanist's toolbox. It allows for the words on the page to convey meaning in a new form, thus creating another avenue for communicating meaning to the reader. There are a few important things to keep in mind when choosing to incorporate a digital visualization into your work. First, in order to engage with a digital visualization tool, you must have a body of research that is already digitized so as to be searchable. Secondly, the digital visualization that you choose needs to match the scope of your work. For example, if I were attempting to grasp if Jane Austen's works discuss men or women more, a tool that can search the corpus of her works and provide an analysis of her word choice based on gender would be best for my research. As I choose a visualization tool, I must keep in mind my audience. If digital visualization tool is absolutely amazing but my reader will not be able to understand how to interpret it, then it is not a good fit for my project. I will need to either provide a tutorial on how to use the tool or choose another, easier to understand, visualization tool.</p>
+This week, I am exploring how to use Voyant tools in text analysis. [Voyant Tools](https://voyant-tools.org/) provides web-based reading and visualization tools for digital text. 
 
-<p> Voyant Tools provides web-based reading and visualization tools for digital text. The user can explore the various tools that Voyant offers with a preset corpus of digitized text (you can choose from Austen or Shakespeare's works or even Shelley's Frankenstein). The user can also upload their own text to analyze. Once you have chosen your tool and analyzed your text, simply export it into whatever digital format you are using. The word cloud above displays the most frequent words in Jane Austen's Pride and Prejudice. Words with greater frequency are displayed larger than those with lesser frequency. </p>
+I chose three tools to try out from the many that Voyant offers. First, I learned about the Topics tool. This tool assists researchers in understanding what topics or term clusters exist in a corpus of work. The tool sorts the words in the corpus by randomly assigning each word a number that corresponds to a topic. The occurrences of these topics, as determined by the number of term clusters that have been returned for the topic, are then visualized by the voyant tool. 
+
+![Voyant Topics visualization](https://doraimpson.com/wp-content/uploads/2024/11/tempImagevy4Ycf.heic)
+
+I also experimented with the Corpus Collocates tool, which can be used to view words that appear more frequently within a corpus and the proximity that these words have to keywords in the text. These words are broken down into three parts: the term (the keyword), the collocate (those words found in close proximity to the keyword), and the count (the number of instances in which the term and collocate are found in close proximity within the corpus). The Collocates Graph tool works similarly to the Corpus Collocates tool but presents the terms and collocates in a visualization that resembles a network.
+
+While Voyant claims that their suite of tools allows users to "see through the text," I think they reveal relationships and interconnectedness within the text. This could be useful in assessing primary sources to see what topics are connected within their corpus.
