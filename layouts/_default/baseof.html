@@ -10,6 +10,7 @@
 
 <head>
     {{- partial "head.html" . }}
+    <link rel="stylesheet" href="{{ "/css/blog-custom.css" | absURL }}">
 </head>
 
 {{- if (or (ne .Kind `page` ) (eq .Layout `archives`) (eq .Layout `search`)) }}
