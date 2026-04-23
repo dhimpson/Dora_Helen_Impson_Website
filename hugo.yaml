@@ -98,7 +98,7 @@ params:
         url: tags
 
   homeInfoParams:
-    Title: "PaperMod's Demo"
+    Title: "Dora Helen Impson"
     Content: >
       👋 Welcome to demo page of Hugo's theme PaperMod!
 
