@@ -1,4 +1,4 @@
-name: Deploy Hugo Site
+name: Deploy Site
 
 on:
   push:
@@ -8,16 +8,16 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           submodules: recursive
           fetch-depth: 0
 
       - name: Set up Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
           extended: true
@@ -30,21 +30,18 @@ jobs:
           find public/ -type d -exec chmod 755 {} \;
           find public/ -type f -exec chmod 644 {} \;
 
-      - name: Set up SSH key
+      - name: Set up SSH
         run: |
           mkdir -p ~/.ssh
           chmod 700 ~/.ssh
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/deploy_key
           chmod 600 ~/.ssh/deploy_key
-          ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts 2>&1
+          echo "${{ secrets.SSH_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+          chmod 644 ~/.ssh/known_hosts
 
-      - name: Deploy to Reclaim Hosting
+      - name: Deploy to server
         run: |
-          rsync -avz --delete \
-            --chmod=Du=rwx,Dgo=rx,Fu=rw,Fgo=r \
-            -e "ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no" \
+          rsync -avz --chmod=Du=rwx,Dgo=rx,Fu=rw,Fgo=r \
+            -e "ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes" \
             public/ \
-            ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:~/public_html/
-
-      - name: Deployment complete
-        run: echo "🎉 Site deployed successfully to https://${{ secrets.SSH_HOST }}"
+            ${{ secrets.SSH_USER }}@DORAIMPSON.COM:~/public_html/
